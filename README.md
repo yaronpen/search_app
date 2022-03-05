@@ -2,17 +2,14 @@ Hi,
 
 Thank you for entering and welcome to my solution.
 
-
 First thing, in order to run the app you'll going to need to add `--experimental-json-modules` to your running command.
 
-
 For example, the simple running command will be `node --experimental-json-modules app.js`.
-
 
 The reason for this is that I've used an experimental json modules in order to parse the json file, it just did the work much more better then any other method and by far the most elegant solution I've found.
 
 ### Some documentation:
-all parameters are query parameters, here are some exaples:
+all parameters are query parameters, here are some examples:
 
     localhost:3001/?average_age_operator=smaller&average_age=26&address=Los Angeles, California, USA&distance=10800&sort_by=distance_km&sort_order=desc
     
@@ -23,7 +20,6 @@ all parameters are query parameters, here are some exaples:
     localhost:3001/?average_age=50&average_age_operator=bigger&avg_income=95000&avg_income_operator=bigger&dist_from_center=18&dist_from_center_op=smaller
 
 range parameter are not required if you use the value parameter, the opposite.
-
 
 string parameters are able to filter only by equal
     
@@ -57,11 +53,8 @@ I really enjoyed developing this small app.
 
 If I had more time developing it, I would sure set up the calculation distance function a little different so it will be faster.
 
-
 The way I implemented the url query params is not perfect, what came up to my mind is that the route address is simple. the url might become complicated, but I wanted the parameters to have a really clear and understandable names, probably could've come up with a better and more solution.
 
-
 Thanks for all and cheers,
-
 
 Yaron.
