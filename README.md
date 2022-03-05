@@ -1,5 +1,5 @@
 Hi,
-Thank you for entering and welcome to my solution.
+thank you for entering and welcome to my solution.
 First thing, in order to run the app you'll going to need to add `--experimental-json-modules` to your running command.
 For example, the simple running command will be `node --experimental-json-modules app.js`.
 The reason for this is that I've used an experimental json modules in order to parse the json file, it just did the work much more better then any other method and by far the most elegant solution I've found.
