@@ -57,7 +57,7 @@ I would sure set up the calculation distance function a little different so it w
 
 The way I implemented the url query params is not perfect, what came up to my mind is that the route address is simple. the url might become complicated, but I wanted the parameters to have a really clear and understandable names, probably could've come up with a better and more solution.
 
-May be I could've set up promise based solution for this too. Probably could've come up with a better soultion if I had more time.
+Probably could've come up with a better soultion if I had more time.
 
 Thanks for all and cheers,
 
