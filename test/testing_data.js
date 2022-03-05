@@ -62,6 +62,7 @@ export const location_params = [
   },
   {
     key: 'address',
-    value: 'Los Angeles, California, USA'
+    value: 'Los Angeles, California, USA',
+    distance: 10800
   }
 ];
