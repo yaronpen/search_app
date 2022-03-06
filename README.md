@@ -22,8 +22,6 @@ all parameters are query parameters, here are some examples:
 range parameter are not required if you use the value parameter, the opposite.
 
 string parameters are able to filter only by equal
-
-bigger means no bigger then n, smaller means no smaller then n
     
     average_age = number
     average_age_operator = 'bigger' | 'smaller' | 'equal' | 'range'
