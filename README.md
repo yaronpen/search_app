@@ -1,7 +1,5 @@
 Hi,
 
-Thank you for entering and welcome to my solution.
-
 First thing, in order to run the app you'll going to need to add `--experimental-json-modules` to your running command.
 
 For example, the simple running command will be `node --experimental-json-modules app.js`.
@@ -48,17 +46,4 @@ string parameters are able to filter only by equal
     sort_order = desc - if other value or none will provided, it will sort asc
     
 
-### Conclusions:
-I really enjoyed developing this small app.
 
-some weaknesses:
-
-I would sure set up the calculation distance function a little different so it will be faster.
-
-The way I implemented the url query params is not perfect, what came up to my mind is that the route address is simple. the url might become complicated, but I wanted the parameters to have a really clear and understandable names, probably could've come up with a better and more solution.
-
-Probably could've come up with a better soultion if I had more time.
-
-Thanks for all and cheers,
-
-Yaron.
